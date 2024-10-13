@@ -1,0 +1,6 @@
+h1 {
+    color:white; /* Cor do texto do título */
+    font-size: 67px; /* Tamanho da fonte */
+    margin-left: 20px; /* Ajuste o valor conforme necessário */
+    text-align: left; /* Assegura que o texto fique alinhado à esquerda */
+}
