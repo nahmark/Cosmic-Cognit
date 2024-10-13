@@ -7,106 +7,105 @@ body {
 
 nav {
     width: 100%;
-    max-width: 1200px; /* Limita a largura máxima do navbar */
+    max-width: 1200px;
     display: flex;
-    justify-content: center; /* Centraliza o navbar */
+    justify-content: center; 
     box-sizing: border-box;
     align-items: center;
-    position: fixed; /* Fixa a barra de navegação */
-    top: 5%; /* Define a distância do topo da página */
-    background-color: transparent; /* Cor de fundo da barra */
-    padding: 10px 0; /* Espaçamento interno da barra */
-    z-index: 1000; /* Garante que a barra fique acima de outros conteúdos */
-    margin-left: 80px; /* Aumenta a margem à esquerda para mover mais para a direita */
+    position: fixed; 
+    top: 5%;
+    background-color: transparent;
+    padding: 10px 0;
+    z-index: 1000;
+    margin-left: 80px; 
 }
 
 nav ul {
-    list-style: none; /* Remove os marcadores da lista */
-    display: flex; /* Coloca os itens da lista em linha */
-    justify-content: center; /* Centraliza os itens na linha */
+    list-style: none; 
+    display: flex;
+    justify-content: center; 
     padding: 0;
     margin: 0;
     align-items: center;
 }
 
 nav ul li {
-    margin-right: 200px; /* Ajustado para um espaçamento mais adequado */
+    margin-right: 200px;
     justify-content: center;
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Remove a margem direita do último item */
+    margin-right: 0; 
 }
 
 nav ul li a {
-    color: white; /* Cor dos links */
-    text-decoration: none; /* Remove sublinhado dos links */
-    font-weight: bold; /* Negrito nos links */
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
     font-size: 18px;
-    padding: 10px 20px; /* Espaçamento interno ajustado */
-    border: 2px solid aqua; /* Borda ao redor dos links */
-    display: inline-block; /* Faz cada link ser tratado como um bloco */
-    border-radius: 5px; /* Arredonda os cantos do retângulo */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave no hover */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ao redor dos links */
+    padding: 10px 20px; 
+    border: 2px solid aqua; 
+    display: inline-block; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 nav ul li a:hover {
-    background-color: aqua; /* Muda o fundo ao passar o mouse */
-    color: #333; /* Muda a cor do texto ao passar o mouse */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Aumenta a sombra no hover */
+    background-color: aqua; 
+    color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
 }
 
 body {
-    font-family: Arial, sans-serif; /* Fonte padrão */
+    font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column; /* Coloca os elementos em coluna */
-    align-items: center; /* Centraliza os elementos horizontalmente */
-    margin-top: 50px; /* Espaço no topo */
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 50px;
 }
 
 body {
-    font-family: Arial, sans-serif; /* Fonte padrão */
+    font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column; /* Coloca os elementos em coluna */
-    align-items: flex-end; /* Alinha os elementos à direita */
-    margin-top: 50px; /* Espaço no topo */
-    padding-right: 20px; /* Adiciona espaço à direita */
+    flex-direction: column; 
+    align-items: flex-end;
+    margin-top: 50px; 
+    padding-right: 20px; 
 }
 
 body {
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    margin: 0; /* Remove margens do corpo */
-    padding: 0; /* Remove preenchimento do corpo */
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
 }
 
 
 .button-container {
     display: flex;
-    flex-direction: column; /* Coloca os botões um embaixo do outro */
-    align-items: flex-end; /* Alinha os botões à direita */
-    position: fixed; /* Fixa a posição na página */
-    top: 120px; /* Distância do topo da página (ajuste conforme necessário) */
-    right: 100px; /* Distância da borda direita */
+    flex-direction: column; 
+    align-items: flex-end; 
+    position: fixed; 
+    top: 120px; 
     text-decoration: none;
 }
 
 .button {
-    background-color: transparent; /* Cor de fundo do botão */
-    color: white; /* Cor do texto */
-    font-size: 30px; /* Tamanho da fonte */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: 2px solid aqua; /* Borda com cor semelhante à da navbar */
-    border-radius: 5px; /* Arredonda os cantos */
-    margin: 16px 0; /* Espaço entre os botões */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave no hover */
+    background-color: transparent; 
+    color: white; 
+    font-size: 30px; 
+    padding: 10px 20px; 
+    border: 2px solid aqua; 
+    border-radius: 5px; 
+    margin: 16px 0; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
     border-radius: 15px;
     text-decoration: none;
 }
 
 .button:hover {
-    background-color: aqua; /* Cor do botão ao passar o mouse */
-    color: #333; /* Cor do texto ao passar o mouse */
+    background-color: aqua;
+    color: #333; 
     text-decoration: none;
 }
